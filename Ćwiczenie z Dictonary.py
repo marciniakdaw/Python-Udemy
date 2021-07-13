@@ -41,10 +41,3 @@ wysw_liste()
 
 koszt_zakupow()
 
-zakup = input("Udało Ci się kupić coś z listy?  t/n  ")
-while zakup == "t" or "T":
-    zakup_prod = input("Jaki produkt kupiłeś?   ")
-    del lista_zakupow[zakup_prod]
-print("")
-
-wysw_liste()
